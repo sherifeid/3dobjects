@@ -14,7 +14,7 @@ ls_fan2 = 71.5;  // fan 2: distance between screw openings
 ds_fan2 = 4.5;   // fan 2: screw opening diameters
 // manifold parameters
 l_mani = 30;     // length to manifold elbow  
-a_mani = 60;     // manifold angle
+a_mani = 45;     // manifold angle
 az_mani = -0;     // z-axis rotation angle of the manifold elbow
 // internal parameters
 n_pipe = 0.9;      // pipe reduction ratio relative to fan 1 diameter
