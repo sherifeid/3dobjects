@@ -18,16 +18,16 @@ ls_fan1 = 24;
 // fan 1: screw openings' diameter
 ds_fan1 = 3.4;  
 // fan 2: diameter
-d_fan2 = 80;  
+d_fan2 = 60;  
 // fan 2: distance between screw openings
-ls_fan2 = 71.5;
+ls_fan2 = 50;
 // fan 2: screw opening diameters
-ds_fan2 = 4.5;   
+ds_fan2 = 4.3;   
 // manifold parameters
 // length to manifold elbow  
-l_mani = 50;     
+l_mani = 20;     
 // manifold angle
-a_mani = 135;     
+a_mani = 45;     
 // z-axis rotation angle of the manifold elbow
 az_mani = -0;     
 // internal parameters
