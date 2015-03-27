@@ -18,14 +18,16 @@ ls_fan1 = 24;
 // fan 1: screw openings' diameter
 ds_fan1 = 3.4;  
 // fan 2: diameter
-d_fan2 = 60;  
+d_fan2 = 40;  
 // fan 2: distance between screw openings
-ls_fan2 = 50;
+ls_fan2 = 32;
 // fan 2: screw opening diameters
 ds_fan2 = 4.3;   
 // manifold parameters
 // length to manifold elbow  
-l_mani = 20;     
+l_mani = 0;
+// length to manifold elbow  
+l_mani2 = 15;  
 // manifold angle
 a_mani = 45;     
 // z-axis rotation angle of the manifold elbow
@@ -79,14 +81,14 @@ module mani_elbow(a,d,t,az)
     // d  : diameter of the elbow
     // t  : wall thickness
     
-    rotate([0,0,az]) translate([-1*d,0,0]) rotate([-90,0,0]) difference()
+    rotate([0,0,az]) translate([-0.5*d,0,0]) rotate([-90,0,0]) difference()
     {
         difference()
         {  
             difference()
             {
-                rotate_extrude() translate([d,0,0]) circle(r = d/2);
-                rotate_extrude() translate([d,0,0]) circle(r = (d-2*t)/2);
+                rotate_extrude() translate([0.5*d,0,0]) circle(r = d/2);
+                rotate_extrude() translate([0.5*d,0,0]) circle(r = (d-2*t)/2);
             }
             translate([-2*d,0,-2*d]) cube([4*d,4*d,4*d]);
         }
@@ -111,9 +113,9 @@ translate([n_pipe*d_fan1*(cos(a_mani)-1),0,t_wall+l_mani+n_pipe*d_fan1*sin(a_man
 {
 union()
 {
-    cylinder(d1=n_pipe*d_fan1,d2=n_pipe*d_fan2,l_mani);
-    translate([0,0,l_mani]) fanplate(d=d_fan2,ds=ds_fan2,t=t_wall,ls=ls_fan2);  // fan 2 plate
+    cylinder(d1=n_pipe*d_fan1,d2=n_pipe*d_fan2,l_mani2);
+    translate([0,0,l_mani2]) fanplate(d=d_fan2,ds=ds_fan2,t=t_wall,ls=ls_fan2);  // fan 2 plate
 }
-cylinder(d1=n_pipe*d_fan1-2*t_wall,d2=n_pipe*d_fan2-2*t_wall,l_mani+t_wall);
+cylinder(d1=n_pipe*d_fan1-2*t_wall,d2=n_pipe*d_fan2-2*t_wall,l_mani2+t_wall);
 }
 
