@@ -26,7 +26,7 @@ ds_fan2 = 4.3;
 
 // larger fan cone parameters
 // length to manifold elbow  
-l_mani1 = 0;
+l_mani1 = 5;
 // cone angle
 a_cone = 100;
 // length to manifold elbow  
