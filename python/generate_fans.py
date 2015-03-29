@@ -13,6 +13,11 @@ from tempfile import mkstemp
 from shutil import move
 from shutil import copy
 from os import remove, close
+from multiprocessing.dummy import Pool
+from functools import partial
+from subprocess import call
+import time
+import shutil
 
 
 # functions go here
@@ -49,11 +54,11 @@ def replacevar(file_path, varname, varval):
     remove(file_path)
     # Move new file
     move(tmp_path, file_path)
-
 # end of functions
 
-# First we define the different fan dimensions
+tstart = time.time()        # start measuring time
 
+# First we define the different fan dimensions
 fanlist = []
 
 # every fan has three parameters [a,b,c], assumed a fan with a square frame
@@ -72,19 +77,35 @@ fanlist.append([80, 71.5, 4.5])
 fanlist.append([92, 82.5, 4.5])
 fanlist.append([120, 105, 4.5])
 
+# global variables
+threads = 4             # number of threads to run in parallel
+activethreads = 0       # variable used to track threads
+
+cmdarray = []           # initialize command array to run threads
+files2clean = []        # initialize a list of files to cleanup after execution
+
+# prep output directory
+stloutdir = 'stlout'
+if not os.path.exists(stloutdir):
+    os.makedirs(stloutdir)
+else:
+    shutil.rmtree(stloutdir)
+    os.makedirs(stloutdir)
+
 # first do the 0 angle adapters
 for i in range(0, len(fanlist)):
     for j in range(i+1, len(fanlist)):
         print 'Converting from fan' + str(i) + ' to fan' + str(j)
         # first we create a new file
         oname = 'adapt_'+str(fanlist[i][0])+'mm_to_'+str(fanlist[j][0])+'mm_at_0_deg'
-        oscad = oname + '.scad'
-        ostl = oname + '.stl'
+        oscad = stloutdir + '/' + oname + '.scad'
+        ostl = stloutdir + '/' + oname + '.stl'
         try:
             copy('variable_fan_adapter.scad', oscad)
         except:
             print 'ERROR: cannot find source scad file!'
             sys.exit(0)
+        # load variables into scad file
         replacevar(oscad, 'd_fan1', fanlist[i][0])
         replacevar(oscad, 'ls_fan1', fanlist[i][1])
         replacevar(oscad, 'ds_fan1', fanlist[i][2])
@@ -92,10 +113,21 @@ for i in range(0, len(fanlist)):
         replacevar(oscad, 'ls_fan2', fanlist[j][1])
         replacevar(oscad, 'ds_fan2', fanlist[j][2])
         replacevar(oscad, 'a_mani', 0)
-        # now we run openscad is batch mode
-        print 'running openscad...'
-        p = subprocess.Popen(['openscad', '-o', ostl, oscad], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        out, err = p.communicate()
-        print 'subprocess Output: ' + out
-        print 'subprocess Error: ' + err
-        remove(oscad)
+        replacevar(oscad, 'l_mani1', 5)
+        cmdarray.append('openscad -o ' + ostl + ' ' + oscad)
+        files2clean.append(oscad)
+
+pool = Pool(threads)        # concurrent scad threads to run
+for i, returncode in enumerate(pool.imap(partial(call, shell=True), cmdarray)):
+    if returncode != 0:
+       print("%d command failed: %d" % (i, returncode))
+
+# cleanup after program is complete
+for i in files2clean:
+    remove(i)
+
+tend = time.time()
+
+print "================================================================"
+print "STL conversion time is: " + str(round(tend-tstart)) + ' seconds'
+print "================================================================"
