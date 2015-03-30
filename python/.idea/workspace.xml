@@ -2,42 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="198103ea-1532-478e-b0f7-2f4b1d459163" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_120mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_30mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_40mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_50mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_60mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_70mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_80mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_25mm_to_92mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_30mm_to_120mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_30mm_to_40mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_30mm_to_50mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_30mm_to_60mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_30mm_to_70mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_30mm_to_80mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_30mm_to_92mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_40mm_to_120mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_40mm_to_50mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_40mm_to_60mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_40mm_to_70mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_40mm_to_80mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_40mm_to_92mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_50mm_to_120mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_50mm_to_60mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_50mm_to_70mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_50mm_to_80mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_50mm_to_92mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_60mm_to_120mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_60mm_to_70mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_60mm_to_80mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_60mm_to_92mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_70mm_to_120mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_70mm_to_80mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_70mm_to_92mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_80mm_to_120mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_80mm_to_92mm_at_0_deg.stl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/adapt_92mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_25mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_25mm_to_70mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_25mm_to_80mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_25mm_to_92mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_30mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_30mm_to_40mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_30mm_to_50mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_30mm_to_60mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_30mm_to_70mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_30mm_to_80mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_30mm_to_92mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_40mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_40mm_to_50mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_40mm_to_60mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_40mm_to_70mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_40mm_to_80mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_40mm_to_92mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_50mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_50mm_to_60mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_50mm_to_70mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_50mm_to_80mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_50mm_to_92mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_60mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_60mm_to_70mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_60mm_to_80mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_60mm_to_92mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_70mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_70mm_to_80mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_70mm_to_92mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_80mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_80mm_to_92mm_at_0_deg.stl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_92mm_to_120mm_at_0_deg.stl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_25mm_to_60mm_at_0_deg.stl" afterPath="$PROJECT_DIR$/../thingiverse/fan_adapter/stlout/adapt_25mm_to_60mm_at_0_deg.stl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_fans.py" afterPath="$PROJECT_DIR$/generate_fans.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -66,11 +63,11 @@
       <file leaf-file-name="generate_fans.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate_fans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79831934" vertical-offset="1010" max-vertical-offset="1605">
-              <caret line="131" column="70" selection-start-line="131" selection-start-column="70" selection-end-line="131" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.8181818" vertical-offset="360" max-vertical-offset="1665">
+              <caret line="83" column="84" selection-start-line="83" selection-start-column="84" selection-end-line="83" selection-end-column="84" />
               <folding>
                 <element signature="e#132#141#0" expanded="true" />
-                <element signature="e#480#1507#0" expanded="false" />
+                <element signature="e#503#1530#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,10 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="215" />
-    <option name="y" value="32" />
+    <option name="x" value="149" />
+    <option name="y" value="72" />
     <option name="width" value="1291" />
-    <option name="height" value="744" />
+    <option name="height" value="644" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -117,7 +114,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,6 +134,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,6 +142,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -290,7 +288,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="32" width="1291" height="744" extended-state="0" />
+    <frame x="149" y="72" width="1291" height="644" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -300,18 +298,18 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -337,22 +335,66 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/generate_fans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#132#141#0" expanded="true" />
-            <element signature="e#480#1507#0" expanded="false" />
+            <element signature="e#503#1530#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/generate_fans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79831934" vertical-offset="1010" max-vertical-offset="1605">
-          <caret line="131" column="70" selection-start-line="131" selection-start-column="70" selection-end-line="131" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#132#141#0" expanded="true" />
-            <element signature="e#480#1507#0" expanded="false" />
+            <element signature="e#503#1530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_fans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#132#141#0" expanded="true" />
+            <element signature="e#503#1530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_fans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#132#141#0" expanded="true" />
+            <element signature="e#503#1530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_fans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#132#141#0" expanded="true" />
+            <element signature="e#503#1530#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_fans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8181818" vertical-offset="360" max-vertical-offset="1665">
+          <caret line="83" column="84" selection-start-line="83" selection-start-column="84" selection-end-line="83" selection-end-column="84" />
+          <folding>
+            <element signature="e#132#141#0" expanded="true" />
+            <element signature="e#503#1530#0" expanded="false" />
           </folding>
         </state>
       </provider>

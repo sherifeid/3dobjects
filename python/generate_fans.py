@@ -18,6 +18,7 @@ from functools import partial
 from subprocess import call
 import time
 import shutil
+import multiprocessing
 
 
 # functions go here
@@ -78,7 +79,10 @@ fanlist.append([92, 82.5, 4.5])
 fanlist.append([120, 105, 4.5])
 
 # global variables
-threads = 4             # number of threads to run in parallel
+threads = multiprocessing.cpu_count()             # number of threads to run in parallel
+
+print " Detected " + str(threads) + " CPUs, will spawn " + str(threads) + " threads!"
+
 activethreads = 0       # variable used to track threads
 
 cmdarray = []           # initialize command array to run threads
@@ -129,5 +133,6 @@ for i in files2clean:
 tend = time.time()
 
 print "================================================================"
+print " Detected " + str(threads) + " CPUs"
 print "STL conversion time is: " + str(round(tend-tstart)) + ' seconds'
 print "================================================================"
