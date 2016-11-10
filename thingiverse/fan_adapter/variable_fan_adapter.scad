@@ -81,14 +81,14 @@ module fanplate(d,ls,t,ds)
     }
 }
 
-module mani_elbow(a,d,t,az)
+module mani_elbow(a,d,t)
 {
     // this is the manifold elbow
     // a  : angle of the elbow
     // d  : diameter of the elbow
     // t  : wall thickness
     
-    rotate([0,0,az]) translate([-1*n_angle*d,0,0]) rotate([-90,0,0]) difference()
+    translate([-1*n_angle*d,0,0]) rotate([-90,0,0]) difference()
     {
         difference()
         {  
@@ -105,6 +105,7 @@ module mani_elbow(a,d,t,az)
 
 // body code goes here
 
+
 difference() // fan 1 plate + pipe 
 {
     union()
@@ -114,15 +115,19 @@ difference() // fan 1 plate + pipe
     }
     cylinder(d=n_pipe*d_fan1-2*t_wall,h=l_mani1+t_wall);
 }
-translate([0,0,l_mani1+t_wall]) mani_elbow(d=n_pipe*d_fan1,a=a_mani,t=t_wall,az=az_mani);
 
-translate([n_pipe*n_angle*d_fan1*(cos(a_mani)-1),0,t_wall+l_mani1+n_pipe*n_angle*d_fan1*sin(a_mani)]) rotate([0,-1*a_mani,0]) difference()
-{
-union()
-{
-    cylinder(d1=n_pipe*d_fan1,d2=n_pipe*d_fan2,l_mani2);
-    translate([0,0,l_mani2]) fanplate(d=d_fan2,ds=ds_fan2,t=t_wall,ls=ls_fan2);  // fan 2 plate
-}
-cylinder(d1=n_pipe*d_fan1-2*t_wall,d2=n_pipe*d_fan2-2*t_wall,l_mani2+t_wall);
+
+// elbow, cone and second fan plate
+rotate([0,0,az_mani]) union() {
+    translate([0,0,l_mani1+t_wall]) mani_elbow(d=n_pipe*d_fan1,a=a_mani,t=t_wall);
+    translate([n_pipe*n_angle*d_fan1*(cos(a_mani)-1),0,t_wall+l_mani1+n_pipe*n_angle*d_fan1*sin(a_mani)]) rotate([0,-1*a_mani,0]) difference()
+    {
+        union()
+        {
+            cylinder(d1=n_pipe*d_fan1,d2=n_pipe*d_fan2,l_mani2);
+            translate([0,0,l_mani2]) fanplate(d=d_fan2,ds=ds_fan2,t=t_wall,ls=ls_fan2);  // fan 2 plate
+        }
+        cylinder(d1=n_pipe*d_fan1-2*t_wall,d2=n_pipe*d_fan2-2*t_wall,l_mani2+t_wall);
+    }
 }
 
