@@ -2,6 +2,8 @@
 // Create by : Sherif Eid
 // sherif.eid@gmail.com
 
+// v 1.0.4  : cleaned code, unified all in one file
+// v 1.0.3  : added cone angle for the larger fan
 // v 1.0.2  : fixed bug in sizing the fan plates
 // v 1.0.1  : fixed output fan cone to tube size, increased size of fan opening
 // v 1.0    : first release
