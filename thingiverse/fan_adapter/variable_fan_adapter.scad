@@ -10,7 +10,7 @@
 
 // fans' parameters
 // wall thickness
-t_wall = 2.5;
+t_wall = 4;
 // fan 1: diameter
 d_fan1 = 30;
 // fan 1: distance between screw openings
@@ -36,7 +36,7 @@ l_mani2 = round(d_fan2/(2*tan(a_cone/2)));
 // manifold angle
 a_mani = 45;     
 // z-axis rotation angle of the manifold elbow
-az_mani = 0;     
+az_mani = 20;     
 // internal parameters
 // pipe reduction ratio relative to fan 1 diameter
 n_pipe = 1;
@@ -45,7 +45,7 @@ n_angle = 0.501;
 
 // other advanced variables
 // used to control the resolution of all arcs 
-$fn = 90;        
+$fn = 50;        
 
 // modules library
 module fanplate(d,ls,t,ds) 
